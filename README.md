@@ -19,3 +19,17 @@ The game is implemented using three main classes:
 - `Player`: This class represents the player. It keeps track of the player's attempts and the coordinates of their guesses.
 - `TreasureMap`: This class represents the treasure map. It generates a random location for the treasure and provides methods to check if a guess is correct and to get a hint after each guess.
 - `Game`: This class represents the game. It handles the game loop, user input, and game logic.
+
+## Running Tests
+
+This project includes a suite of tests to verify that the game works as expected. These tests are located in the `test_main.py` file.
+
+To run the tests, you will need to have Python and the `unittest` module installed on your machine. `unittest` is included in the standard library for Python 3, so you should not need to install it separately.
+
+Here are the steps to run the tests:
+
+1. Open a terminal and navigate to the root directory of your project (the directory that contains all your project files).
+
+2. Run the following command to execute the tests:
+```bash
+python -m unittest test_main.py
